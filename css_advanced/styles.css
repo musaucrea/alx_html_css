@@ -1,10 +1,9 @@
 body {
     font-family: Source Sans Pro;
     background: url(images/Object.png);
-    background-size: 140%;
+    background-size: auto;
     background-position: top;
     background-repeat: no-repeat;
-
 
 }
 
@@ -68,7 +67,7 @@ nav ul a {
     line-height: 150.84px;
     color: white;
     margin-bottom: 10px;
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
 
@@ -126,7 +125,7 @@ nav ul a {
 /* ==================================testimonials================================== */
 .testimonials {
     display: flex;
-  justify-content: center;
+    justify-content: center;
     color: white;
     background-color: #C271FF;
     margin-top: 105px;
@@ -155,23 +154,26 @@ nav ul a {
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
-    justify-content: flex-start;    
+    justify-content: flex-start;
 }
 
 .testimonials .Testimonial-quote h3 {
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 5px;
 }
-.testimonials .Testimonial-quote p{
+
+.testimonials .Testimonial-quote p {
 
     margin-top: 0px;
     margin-top: 0%;
-} 
+}
+
 /* =========================tutorials================= */
 .tutorials {
     height: 100vh;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
+
 .tutorials h2 {
     display: flex;
     justify-content: center;
@@ -188,87 +190,140 @@ nav ul a {
 }
 
 .tutorial {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
+    text-align: justify;
 }
-.tutorial h3{
+
+.tutorial h3 {
     justify-content: first baseline;
     font-size: 16px;
     font-weight: 700;
-
-} 
-.tutorial h3 .tutorial-1{
-    
-}
-/* 
-
-body{
-   font-family: Source Sans Pro;
-   background: url(images/Object.png);
-   background-size: 100%;
-   background-position: top;
-   background-repeat:no-repeat;
-
 }
 
-.tutors h2{
-   position: absolute; 
-   font-size: 32px;
-   font-weight: 700;
-   line-height: 40.22px;
-   top:470px;
-   font-style:light;
-   color: white;
+.tutorial h4 {
+    color: #C271FF;
 }
 
-.tutors h2 span{
- color:#C271FF;
+.tutorial .time {
+    display: flex;
+    color: #C271FF;
+    text-align: right;
 }
-.tutors.tutors-1{
-    display:flex;
-    justify-content:flex-start;
+
+.tutorials .tutorial .tutorials-box .playbtn {
+    position: relative;
+    width: 64px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    display: flex;
+}
+
+.tutorials .tutorial .tutorials-box .commenter {
+    width: 30px;
+    height: 30px;
+    top: 261px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+body {
+    font-family: Source Sans Pro;
+    background: url(images/Object.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.tutors h2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    top: 470px;
+    font-style: light;
+    color: white;
+}
+
+.tutors h2 span {
+    color: #C271FF;
+}
+
+.tutors.tutors-1 {
+    display: flex;
+    justify-content: flex-start;
     gap: 100px;
-justify-content: row;
+    justify-content: row;
 }
-.tutors.tutors-2{
+
+.tutors.tutors-2 {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
+
 .tutors.tutors-1 div {
-text-align: center;
+    text-align: center;
 }
 
 
- span{
-font-style:bold;
-gap: ;
- }
- */
-/* .
+span {
+    font-style: bold;
+    gap: ;
+}
 
-.testimonials{
-    height: 392px;
-    background-color: #C271FF;
-    height: 392px;
-    top: 1093px;
-    left: -1px;
-    justify-content: center;
-    gap: 100px;
-   color: white;
-}
-.testimonials div{
-    max-width:50%;
-}
-.testimonials.Testimonial-quote{
+/* ========================membership==============================*/
+.membership {
     display: flex;
-    flex-direction: coloumn;
-    gap: 10px;
+    flex-direction: column;
+    background-color: #071629;
+    align-items: center;
+    text-align: center;
+    gap: 85px;
+    padding: 50px;
+    color: white;
 }
-.testimonials.Testimonial-quote h3{
-    font-weight: bold;
+
+.membership .memclass {
+    font-size: 32px;
+
 }
-.tutorial{
 
+.membership .memclass span {
+    font-weight: 700;
+    color: #C271FF;
+}
 
-} */
+.membership .membership-plans {
+    display: flex;
+    gap: 100px;
+}
+
+.membership .membership-plans .membership-container p {
+    width: 212px;
+    height: 52px;
+    top: 101px;
+    left: 22.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.membership .btn1 {
+    border-radius: 22px;
+    text-align: center;
+    background-color: #C271FF;
+    color: white;
+    width: 162px;
+    height: 44px;
+    font-style: semibold;
+    font-size: 14;
+    box-shadow: rgba(0, 0, 0, 0.52), blur 20, y 2;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
