@@ -1,17 +1,20 @@
 body {
     font-family: Source Sans Pro;
-    background: url(images/Object.png);
-    background-size: 100p;
-    background-position: top;
-    background-repeat: no-repeat;
 
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 
 /*================================header======================================*/
-/* #main-header {
-  
-} */
+#main-header {
+    top: 35.02px;
+    background: url(images/Object.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
 
 nav {
     display: flex;
@@ -35,13 +38,10 @@ nav ul a {
 }
 
 /*================================herosection======================================*/
-
 .hero-section {
     display: flex;
     flex-direction: column;
-
-
-
+    /* border: 5px solid blue; */
 }
 
 .CTA-content {
@@ -50,70 +50,32 @@ nav ul a {
 
 }
 
-.CTA-subcontent {
-    display: flex;
-    gap: 40px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20.11px;
-    color: white;
-    justify-content: center;
-    margin-top: -2px;
-    margin-bottom: 20px;
-}
-
 .CTA-content h1 {
+    /* border: 5px solid red; */
     font-size: 120px;
     font-weight: 700;
     line-height: 150.84px;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 50px;
-
-}
-
-.tutors {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.tutor-1 {
-    /* background-color: aqua;  */
-    display: flex;
-
-    color: white;
-    gap: 40px;
-    font-size: 18px;
-    margin-top: 40px;
-    width: 1009px;
-    height: 237px;
-    top: 758px;
-    left: 217px;
-    opacity: 0px;
-    flex-direction: row-reverse;
-
-}
-
-.tutors .tagline {
-    text-align: center;
-    color: white;
+    color: #FFFFFF;
     margin-top: 100px;
+    margin-bottom: 0px;
+    line-height: 150.84px;
+    height: 151px;
+
 
 }
 
-
-.tutors .tagline span {
-    color: #C271FF;
+.CTA-subcontent {
+    /* border: 5px solid magenta; */
+    font-family: source Sans Pro;
+    font-family: Source Sans Pro;
+    font-size: 16px;
     font-weight: 700;
+    line-height: 20.11px;
+    color: #FFFFFF;
 }
 
-.tutors div img {
-    border-radius: 50%;
-    width: 160px;
-}
 
-.btn {
+.CTA-content .btn {
     border-radius: 22px;
     text-align: center;
     background-color: #C271FF;
@@ -122,13 +84,61 @@ nav ul a {
     height: 44px;
     font-style: semibold;
     font-size: 14;
-    box-shadow: rgba(0, 0, 0, 0.52), blur 20, y 2;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.514);
     border: none;
     margin-bottom: 20px;
     padding: 10px;
     margin-top: 40px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.tutors {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid #C271FF; */
 
 }
+
+.tutors .tagline {
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.tutors .tagline span {
+    color: #C271FF;
+    font-weight: 700;
+}
+.tutors-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0px;
+}
+
+.tutor-1 {
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid #FFFFFF; */
+    display: flex;
+    color: white;
+    gap: 40px;
+    font-size: 18px;
+    width: 1009px;
+    height: 237px;
+    opacity: 0px;
+}
+.tutors div img {
+    border-radius: 50%;
+    
+}
+
 
 /* ==================================testimonials================================== */
 .testimonials {
@@ -136,7 +146,6 @@ nav ul a {
     justify-content: center;
     color: white;
     background-color: #C271FF;
-    margin-top: 105px;
     height: 392px;
     top: 1093px;
     height: 392px;
@@ -145,10 +154,7 @@ nav ul a {
     gap: 20px;
     align-items: center;
 
-
-
 }
-
 .testimonials div img {
     width: 160px;
     height: 160px;
@@ -156,7 +162,6 @@ nav ul a {
     left: 259px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .testimonials .Testimonial-quote {
@@ -177,11 +182,13 @@ nav ul a {
     margin-top: 0%;
 }
 
+
 /* =========================tutorials================= */
-.tutorials {
-    height: 100vh;
-    /* background-color: aliceblue; */
+.tutorials{
+    display: flex;
+    flex-direction: column;
 }
+
 
 .tutorials h2 {
     display: flex;
@@ -208,9 +215,8 @@ nav ul a {
     left: 106px;
     gap: 0px;
     opacity: 0px;
-
-
 }
+
 
 .tutorial h3 {
     justify-content: first baseline;
@@ -228,6 +234,14 @@ nav ul a {
     text-align: right;
 }
 
+.tutorials-box{
+    border: 3px solid red;
+    gap: 40px;
+}
+
+.tutorials-box-images{
+    border: 2px solid blue;
+}
 .tutorials .tutorial .tutorials-box .playbtn {
     position: relative;
     width: 64px;
@@ -246,14 +260,6 @@ nav ul a {
     opacity: 0px;
 }
 
-body {
-    font-family: Source Sans Pro;
-    background: url(images/Object.png);
-    background-size: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-
-}
 
 .tutors h2 {
     position: absolute;
@@ -287,12 +293,10 @@ body {
 }
 
 
-span {
-    font-style: bold;
-    gap: ;
-}
 
 /* ========================membership==============================*/
+
+
 .membership {
     display: flex;
     flex-direction: column;
@@ -305,127 +309,8 @@ span {
 
 }
 
-.membership .memclass {
-    font-size: 32px;
-
-}
-
-.membership .memclass span {
-    font-weight: 700;
-    color: #C271FF;
-}
-
-.membership .membership-plans {
+.membership-plans {
     display: flex;
-    gap: 100px;
-}
-
-.membership .membership-plans .membership-container p {
-    width: 212px;
-    height: 52px;
-    top: 101px;
-    left: 22.5px;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.membership .btn1 {
-    border-radius: 22px;
-    text-align: center;
-    background-color: #C271FF;
-    color: white;
-    width: 162px;
-    height: 44px;
-    font-style: semibold;
-    font-size: 14;
-    box-shadow: rgba(0, 0, 0, 0.52), blur 20, y 2;
-    border: none;
-    margin-bottom: 20px;
-    padding: 10px;
-    margin-top: 40px;
-}
-
-/*==========================FAQS========================*/
-.faqs {
-    display: flex;
-    width: 920px;
-    height: 707px;
-    top: 2678px;
-    left: 249px;
-    gap: 0px;
-    opacity: 0px;
-    padding: 70px;
-}
-
-
-.faqs h2 {
-    font-size: 60px;
-    font-weight: 300;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.faq h3{
-    display: flex;
-    flex-direction: row;
-    background-color: brown
-    j
-}
-.faq-content {
-    justify-content:center;
-    width: 350px;
-    height: 192px;
-    top: 50px;
-    gap: 0px;
-    opacity: 0px;
-    font-size: 14px;
-    font-weight: 400px;
-    line-height:24px ;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
     
-
-}
-
-/* =======footer============================= */
-.footer-links {
-    background-color: #071629;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-
-    height: 249px;
-    top: 3469px;
-    gap: 0px;
-    opacity: 0px;
-
-}
-
-.footer-links img {
-    width: 169px;
-    height: 30px;
-    top: 95px;
-    left: 165px;
-    padding: 0.02px 0px 0.52px 0.59px;
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
-    flex-direction: row;
-    /* background-color: aqua; */
-
-    .footer-socials {
-        width: 130px;
-        height: 30px;
-        top: 90px;
-        left: 1070px;
-        gap: 20px;
-        /* background-color: #C271FF; */
-        display: flex;
-        align-items: center;
-        border-radius: 50%;
-        margin-bottom: 100px;
-    }
-
-    f
+    gap: 100px;
 }
