@@ -327,3 +327,21 @@ span {
     margin-top: 40px;
 }
 
+.footer-links{
+    background-color: #071629;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+
+.footer-links img{
+    width: 169px;
+    height: 30px;
+    top: 95px;
+    left: 165px;
+    padding: 0.02px 0px 0.52px 0.59px;
+    gap: 0px;
+    opacity: 0px; 
+    display: flex;
+    flex-direction: row;
+}
