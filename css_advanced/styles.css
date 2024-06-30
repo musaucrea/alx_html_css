@@ -1,11 +1,12 @@
 body {
     font-family: Source Sans Pro;
     background: url(images/Object.png);
-    background-size: auto;
+    background-size: 100p;
     background-position: top;
     background-repeat: no-repeat;
 
 }
+
 
 /*================================header======================================*/
 /* #main-header {
@@ -80,11 +81,18 @@ nav ul a {
 .tutor-1 {
     /* background-color: aqua;  */
     display: flex;
-    justify-content: center;
+
     color: white;
     gap: 40px;
     font-size: 18px;
     margin-top: 40px;
+    width: 1009px;
+    height: 237px;
+    top: 758px;
+    left: 217px;
+    opacity: 0px;
+    flex-direction: row-reverse;
+
 }
 
 .tutors .tagline {
@@ -136,6 +144,7 @@ nav ul a {
     left: -1px;
     gap: 20px;
     align-items: center;
+
 
 
 }
@@ -193,6 +202,14 @@ nav ul a {
     /* background-color: blue; */
     display: flex;
     text-align: justify;
+
+    height: 450px;
+    top: 1572px;
+    left: 106px;
+    gap: 0px;
+    opacity: 0px;
+
+
 }
 
 .tutorial h3 {
@@ -285,6 +302,7 @@ span {
     gap: 85px;
     padding: 50px;
     color: white;
+
 }
 
 .membership .memclass {
@@ -327,21 +345,87 @@ span {
     margin-top: 40px;
 }
 
-.footer-links{
-    background-color: #071629;
+/*==========================FAQS========================*/
+.faqs {
     display: flex;
-    justify-content:space-around;
-    color: white;
+    width: 920px;
+    height: 707px;
+    top: 2678px;
+    left: 249px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 70px;
 }
 
-.footer-links img{
+
+.faqs h2 {
+    font-size: 60px;
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.faq h3{
+    display: flex;
+    flex-direction: row;
+    background-color: brown
+    j
+}
+.faq-content {
+    justify-content:center;
+    width: 350px;
+    height: 192px;
+    top: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height:24px ;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    
+
+}
+
+/* =======footer============================= */
+.footer-links {
+    background-color: #071629;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+    height: 249px;
+    top: 3469px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.footer-links img {
     width: 169px;
     height: 30px;
     top: 95px;
     left: 165px;
     padding: 0.02px 0px 0.52px 0.59px;
     gap: 0px;
-    opacity: 0px; 
+    opacity: 0px;
     display: flex;
     flex-direction: row;
+    /* background-color: aqua; */
+
+    .footer-socials {
+        width: 130px;
+        height: 30px;
+        top: 90px;
+        left: 1070px;
+        gap: 20px;
+        /* background-color: #C271FF; */
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        margin-bottom: 100px;
+    }
+
+    f
 }
