@@ -64,6 +64,8 @@ nav ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text within the block */
     position: relative;
     height: 115vh;
     padding: 40px;
@@ -85,19 +87,20 @@ nav ul a {
 }
 
 .button {
-    border-radius: 22px;
+    border-radius: 26px;
     width: 162px;
     height: 44px;
-    position: relative;
     background-color: #FF6565;
     font-size: 14px;
     color: white;
     font-weight: bold;
     margin-top: 40px;
+   
 }
 .hero-section .p2{
     text-align: center;
     color: white;
     font-size: 16px;
     margin-top: 65px;
+    line-break: anywhere;
 }
