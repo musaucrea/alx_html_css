@@ -11,15 +11,22 @@ body{
 .icon-container {
     margin-top: 97px;
     display: flex;
-    justify-content: center; /* Centers items horizontally */
-    gap: 20px; /* Adjust as needed */
+    justify-content: center; 
+    gap: 58px;
+
   }
 
   .icon-container > div {
-    text-align: center; /* Centers content within each icon container */
+    text-align: center; 
   }
 
   .icon-container img {
-    max-width: 100%; /* Ensures images don't exceed container width */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; 
+    height: auto; 
+  }
+  .icon-container p{
+    margin-top: 63px; 
+    font-size: 14px; 
+    color: #555; 
+    text-align: center;
   }
