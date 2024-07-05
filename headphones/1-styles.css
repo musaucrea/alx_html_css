@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+body{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.icon-container {
+    margin-top: 97px;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adjust as needed */
+  }
+
+  .icon-container > div {
+    text-align: center; /* Centers content within each icon container */
+  }
+
+  .icon-container img {
+    max-width: 100%; /* Ensures images don't exceed container width */
+    height: auto; /* Maintains aspect ratio */
+  }
