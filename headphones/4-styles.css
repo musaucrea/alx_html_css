@@ -1,0 +1,63 @@
+footer {
+    display: flex;
+    background-color: #071629;
+    justify-content: space-around;
+    height: 249px;
+    align-items: center;
+  }
+  
+  footer div {
+    /* border: 1px solid white; */
+  }
+  
+  .footer-links {
+    display: flex;
+    align-items: center;
+    color: white;
+  
+  
+  }
+  
+  .smile-school {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-section img {
+    width: 161px;
+    height: 32px;
+    top: 95px;
+    left: 165px;
+    padding: 0.02px 0px 0.52px 0.59px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer-socials {
+    gap: 60px;
+    width: 130px;
+    height: 30px;
+    top: 90px;
+    left: 1070px;
+    gap: 20px;
+    /* background-color: #C271FF; */
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 90px ; */
+    position: absolute;
+  }
+  
+  .copyright {
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    opacity: 35%;
+    font-size: 12;
+   position: absolute;
+   margin-top: 185px;
+  }
