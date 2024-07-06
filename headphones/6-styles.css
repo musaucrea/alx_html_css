@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    color: white;
+}
+body{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   background: url(background\ 1.png);
+}
+h2{
+    font-size: 46px;
+}
+.Results{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+ .pentagons img{
+    width: 180px;
+    height: 171px;
+   
+   
+}
+.pentagons{
+    justify-content: center;
+    flex-direction: column;
+   display: flex;
+   text-align: center;
+   margin-top: 56px;
+   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+   background-color: #FF6565;
+}
+  P{
+    font-size: 16px;
+  }
+  .p1{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .pentagons h2,
+  .pentagons p1 {
+      position: absolute; /* Allows you to position the text over the image */
+      color: white; /* Adjust color for better visibility over the image */
+      align-items: center;
+  }
+  
+  .pentagons h2 {
+      margin-top: 10px; /* Adjust as needed */
+  }
