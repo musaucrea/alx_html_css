@@ -23,34 +23,23 @@ body {
 }
 
 
-nav {
-    align-items: center;
-    padding: 30px 18%;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-}
 
-.logo {
-    position: absolute;
+nav .img {
+   display: flex;
     width: 161px;
     height: 32px;
-    left: 200.61px;
-    top: 27.76px;
 }
 
 nav {
     /* header */
     display: flex;
-    justify-content: space-between;
+  justify-content: space-around;
     align-items: center;
     padding: 30px 18px;
 }
-
 nav ul {
     /* menu */
     display: flex;
-    position: absolute;
     width: 255px;
     height: 15px;
     left: 946px;
@@ -59,14 +48,20 @@ nav ul {
     gap: 10%;
     font-size: 12px;
     font-weight: 700;
+    justify-content: space-between;
 }
 
 nav ul a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
 }
-
+nav ul a:hover{
+    color: #FF6565;
+}
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -101,11 +96,11 @@ nav ul a {
     font-size: 14px;
     color: white;
     font-weight: bold;
-    margin-top: 40px;
-    
-   
+    margin-top: 40px;  
 }
-
+.button:hover{
+    opacity: 0.9  
+}
 .hero-section .p2{
     text-align: center;
     color: white;
@@ -113,4 +108,5 @@ nav ul a {
     margin-top: 65px;
     line-break: anywhere;
     position:relative;
+    margin-top: 65px;
 }

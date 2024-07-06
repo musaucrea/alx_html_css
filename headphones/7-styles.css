@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+body{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.icon-container {
+    margin-top: 97px;
+    display: flex;
+    justify-content: center; 
+    gap: 58px;
+
+  }
+
+  .icon-container > div {
+    text-align: center; 
+  }
+
+  .icon-container img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  .icon-container p{
+    margin-top: 63px; 
+    font-size: 14px; 
+    color: #555; 
+    text-align: center;
+  }
+  *{
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    color: white;
+}
+body{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   background: url(background\ 1.png);
+}
+h2{
+    font-size: 46px;
+}
+.Results{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+ .pentagons img{
+    width: 180px;
+    height: 171px;
+   
+   
+}
+.pentagons{
+    justify-content: center;
+    flex-direction: column;
+   display: flex;
+   text-align: center;
+   margin-top: 56px;
+}
+  P{
+    font-size: 16px;
+  }
+  .p1{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .pentagons h2,
+  .pentagons p1 {
+      position: absolute; /* Allows you to position the text over the image */
+      color: white; /* Adjust color for better visibility over the image */
+      align-items: center;
+  }
+  
+  .pentagons h2 {
+      margin-top: 10px; /* Adjust as needed */
+  }
