@@ -6,6 +6,7 @@
     font: inherit;
     vertical-align: baseline;
     font-family: "Source Sans Pro";
+    
 }
 
 body {
@@ -16,12 +17,7 @@ body {
     background-position: top;
     position: relative;
 }
-.content{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
+
 
 nav {
     align-items: center;
@@ -70,8 +66,8 @@ nav ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Center children horizontally */
-    text-align: center; /* Center text within the block */
+    align-items: center; 
+    text-align: center; 
     position: relative;
     height: 115vh;
     padding: 40px;
