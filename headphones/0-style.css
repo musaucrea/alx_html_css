@@ -44,7 +44,19 @@
   .nav-menu a:hover {
     color: #FF6565;
   }
-  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 4px;
+    width: 25px;
+    background: #333;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
 
 .hero-section {
     text-align: center;
