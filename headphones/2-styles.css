@@ -1,54 +1,73 @@
-*{
-    box-sizing: border-box;
-    font-family: Source Sans Pro;
-    color: white;
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-   text-align: center;
-   justify-content: center;
-   background: url(background\ 1.png);
-}
-h2{
-    font-size: 46px;
-}
-.Results{
-    display: flex;
-   /* flex-wrap: wrap; */
-   justify-content:space-between;
 
+/* CSS Variables */
+:root {
+  --font-family: 'source sans pro';
+  --padding: 76px;
+  --margin: 16px;
+  --button-color: #ff5722;
+  --button-hover-color: #e64a19;
+  --text-color: #333;
+  --background-color: #f9f9f9;
 }
- .Results img{
-    width: 180px;
-    height: 171px;
-   margin: left 76px;
-   display: flex; 
-}
-.pentagons{
 
-   text-align: center;
-   margin-top: 56px;
-   /* justify-content: space-between; */
-   justify-content: flex-end;
-   
+/* General Styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+ background: url(background\ 1.png);
 }
-  P{
-    font-size: 16px;
-  }
-  .p1{
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .pentagons h2,
-  .pentagons p1 {
-      position: absolute; /* Allows you to position the text over the image */
-      color: white; /* Adjust color for better visibility over the image */
-      align-items: center;
-  }
-  
-  .pentagons h2 {
-      margin-top: 10px; /* Adjust as needed */
-  }
-  .dot{
-    justify-content: space-between;
-  }
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--padding);
+}
+
+/* Our Results Section Styles */
+section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section h2 {
+margin-top: ;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 40px ;
+  font-family: Spin Cycle;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom:56px ;
+  color: white;
+}
+
+.Results {
+  display: flex;
+  justify-content: center;
+  gap: var(--margin);
+  flex-wrap: wrap;
+}
+
+.pentagons {
+  width: 180px;
+  height: 171px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.dot {
+  max-width: 100%;
+  height: auto;
+}

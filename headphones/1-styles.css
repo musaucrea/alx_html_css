@@ -14,7 +14,6 @@ body{
     justify-content: center; 
     gap: 58px;
     align-items: end;
-
   }
 
   .icon-container > div {
@@ -39,11 +38,10 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 13px;
+    font-family: spin cycle;
   }
   .icon1 .icon2 .icon3 .icon4{
     align-items: center;
     align-items: end;
-   
-
     
   }
