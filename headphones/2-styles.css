@@ -38,11 +38,12 @@ body {
 section {
   text-align: center;
   padding: 50px 20px;
+  color: white;
 }
 
 section h2 {
-margin-top: 141px;
-  color: white;
+ margin-top: 90px; */
+  color:white;
   font-size: 32px;
   margin-bottom: 40px ;
   font-family: Spin Cycle;
