@@ -51,10 +51,15 @@ section h2 {
 }
 
 section p {
-  font-size: 1.25rem;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: var(--margin);
   margin-top: 42px;
+}
+
+.p1 {
+  margin-bottom: 97px;
+  font-size: 14px;
 }
 
 /* What We Do Section Styles */

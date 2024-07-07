@@ -68,13 +68,7 @@
   }
   
   .hero-section .button {
-    /* background-color: var(--button-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-bottom: var(--margin); */
+    
     border: none;
     border-radius: 26px;
     width: 162px;
