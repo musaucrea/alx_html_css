@@ -12,8 +12,8 @@
   --margin: 16px;
   --button-color: #ff5722;
   --button-hover-color: #e64a19;
-  --text-color: #333;
-  --background-color: #f9f9f9;
+  --text-color: #ffffff;
+  --gap:60px;
 }
 
 /* General Styles */
@@ -29,7 +29,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: var(--padding);
 }
@@ -42,7 +42,7 @@ section {
 }
 
 section h2 {
- margin-top: 90px; */
+ margin-top: 80px; */
   color:white;
   font-size: 32px;
   margin-bottom: 40px ;
