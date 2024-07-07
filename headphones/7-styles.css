@@ -1,82 +1,124 @@
-*{
-    box-sizing: border-box;
-    font-family: Source Sans Pro;
-}
-body{
-    display: flex;
-   text-align: center;
-   justify-content: center;
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* CSS Variables */
+:root {
+  --primary-color: #3d4f5b;
+  --secondary-color: #FF6565;
+  --font-family: 'Source Sans Pro';
+  --padding: 16px;
+  --margin: 16px;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+  --pentagon-width: 180px;
+  --pentagon-height: 170px;
+  --pentagon-margin-bottom: 71px;
+}
+
+/* General Styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background: url('images/background 1.png') no-repeat top;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--padding);
+  flex: 1;
+}
+
+/* Section Styles */
+section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: var(--margin);
+}
+
+section p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--margin);
+  margin-top: 42px;
+}
+
+/* What We Do Section Styles */
 .icon-container {
-    margin-top: 97px;
-    display: flex;
-    justify-content: center; 
-    gap: 58px;
+  display: flex;
+  justify-content: center;
+  gap: var(--margin);
+  flex-wrap: wrap;
+}
 
-  }
+.icon {
+  width: 150px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s, opacity 0.3s;
+}
 
-  .icon-container > div {
-    text-align: center; 
-  }
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
 
-  .icon-container img {
-    max-width: 100%; 
-    height: auto; 
-  }
-  .icon-container p{
-    margin-top: 63px; 
-    font-size: 14px; 
-    color: #555; 
-    text-align: center;
-  }
-  *{
-    box-sizing: border-box;
-    font-family: Source Sans Pro;
-    color: white;
+.icon:hover {
+  transform: scale(1.1) rotate(10deg);
+  opacity: 0.8;
 }
-body{
-    display: flex;
-   text-align: center;
-   justify-content: center;
-   background: url(background\ 1.png);
-}
-h2{
-    font-size: 46px;
-}
-.Results{
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
 
-}
- .pentagons img{
-    width: 180px;
-    height: 171px;
-   
-   
-}
-.pentagons{
-    justify-content: center;
-    flex-direction: column;
-   display: flex;
-   text-align: center;
-   margin-top: 56px;
-}
-  P{
-    font-size: 16px;
-  }
-  .p1{
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .pentagons h2,
-  .pentagons p1 {
-      position: absolute; /* Allows you to position the text over the image */
-      color: white; /* Adjust color for better visibility over the image */
-      align-items: center;
-  }
+/* Our Results Section Styles */
+.Results {
+
+  display: flex;
+  justify-content: center;
+  gap: var(--margin);
+  flex-wrap: wrap;
   
-  .pentagons h2 {
-      margin-top: 10px; /* Adjust as needed */
-  }
+}
+.our-results{
+  background: url(background\ 1.png);
+  color: white;
+}
+
+.pentagons {
+  width: var(--pentagon-width);
+  height: var(--pentagon-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--pentagon-margin-bottom);
+  background-color: var(--secondary-color);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: transform 0.3s, opacity 0.3s;
+  margin-top: 56px;
+}
+
+.pentagons img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pentagons:hover {
+  transform: scale(1.1) rotate(-10deg);
+  opacity: 0.8;
+}

@@ -1,54 +1,90 @@
-*{
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Source Sans Pro;
-    color: white;
-}
-body{
+  }
+  
+  /* CSS Variables */
+  :root {
+    --primary-color: #FF6565;
+    --secondary-color:#FF6565;
+    --font-family: 'Source Sans Pro';
+    --padding: 16px;
+    --margin: 16px;
+    --text-color: white;
+    --background-color: #f9f9f9;
+    --pentagon-width: 180px;
+    --pentagon-height: 171px;
+    --pentagon-margin-bottom: 71px;
+    --pentagon-margin-top: 56px;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background: url('background 1.png') no-repeat top;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
     display: flex;
-   text-align: center;
-   justify-content: center;
-   background: url(background\ 1.png);
-}
-h2{
-    font-size: 46px;
-}
-.Results{
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-
-}
- .pentagons img{
-    width: 180px;
-    height: 171px;
-   
-   
-}
-.pentagons{
-    justify-content: center;
     flex-direction: column;
-   display: flex;
-   text-align: center;
-   margin-top: 56px;
-   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-   background-color: #FF6565;
-   padding-top: 50px;
-   
-}
-  P{
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding);
+    flex: 1;
+  }
+  
+  /* Our Results Section Styles */
+  section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 42px;
+    font-family: spin cycle;
+  }
+  
+  section p {
     font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 56px;
   }
-  .p1{
-    font-size: 14px;
-    margin-top: 20px;
+  
+  .Results {
+    display: flex;
+    justify-content: center;
+    gap: var(--margin);
+    flex-wrap: wrap;
   }
-  .pentagons h2,
-  .pentagons p1 {
-      position: absolute; /* Allows you to position the text over the image */
-      color: white; /* Adjust color for better visibility over the image */
-      align-items: center;
+  
+  .pentagons {
+    width: var(--pentagon-width);
+    height: var(--pentagon-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+    background-color: var(--secondary-color);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    color: white;
   }
   
   .pentagons h2 {
-      margin-top: 10px; /* Adjust as needed */
+    margin-top: 70px;
+    margin-bottom: 20px;
   }
+  
+  .pentagons .p1 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
