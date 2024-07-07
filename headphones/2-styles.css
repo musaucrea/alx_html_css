@@ -14,22 +14,23 @@ h2{
 }
 .Results{
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
+   /* flex-wrap: wrap; */
+   justify-content:space-between;
 
 }
- .pentagons img{
+ .Results img{
     width: 180px;
     height: 171px;
-   
-   
+   margin: left 76px;
+   display: flex; 
 }
 .pentagons{
-    justify-content: center;
-    flex-direction: column;
-   display: flex;
+
    text-align: center;
    margin-top: 56px;
+   /* justify-content: space-between; */
+   justify-content: flex-end;
+   
 }
   P{
     font-size: 16px;
@@ -47,4 +48,7 @@ h2{
   
   .pentagons h2 {
       margin-top: 10px; /* Adjust as needed */
+  }
+  .dot{
+    justify-content: space-between;
   }

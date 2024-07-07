@@ -1,94 +1,76 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: "Source Sans Pro";
-    
-}
+    box-sizing: border-box;
+    font-family:source sans pro;
+  }
+  :root {
+    --padding: 16px;
+    --margin: 16px;
+  }
 
-body {
-    background-color: white;
-    background: url(images/headphones_hero_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    position: relative;
+  body{
+    background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+  }
+  /* Hero Section Styles */
+
+  .navbar {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-nav .img {
-   display: flex;
-    width: 161px;
-    height: 32px;
-}
-
-nav {
-    /* header */
-    display: flex;
-  justify-content: space-around;
-    align-items: center;
-    padding: 30px 18px;
-}
-nav ul {
-    /* menu */
-    display: flex;
-    width: 255px;
-    height: 15px;
-    left: 946px;
-    top: 37px;
-    list-style: none;
-    gap: 10%;
-    font-size: 12px;
-    font-weight: 700;
     justify-content: space-between;
-}
-
-nav ul a {
+    align-items: center;
+  }
+  
+  .navbar img {
+    height: 50px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: var(--margin);
+  }
+  
+  .nav-menu a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    justify-content: space-between;
-    text-align: center;
-    position: relative;
-}
-nav ul a:hover{
+    font-size: 1rem;
+  }
+  
+  .nav-menu a:hover {
     color: #FF6565;
-}
+  }
+  
+
 .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    text-align: center; 
-    position: relative;
-    height: 115vh;
-    padding: 40px;
-}
-
-.hero-section h1 {
-    margin: 0;
-    font-weight: bolder;
+    align-items: center;
+  }
+  
+  .hero-section h1 {
     font-size: 32px;
-    text-align: center;
+    margin-bottom: var(--margin);
+  }
+  
+  .hero-section .p1 {
+    font-size: 1.25rem;
+    margin-bottom: var(--margin);
+  }
+  
+  .hero-section .button {
+    /* background-color: var(--button-color);
     color: white;
-}
-
-.hero-section .p1 {
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
-.button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: var(--margin); */
+    border: none;
     border-radius: 26px;
     width: 162px;
     height: 44px;
@@ -97,16 +79,14 @@ nav ul a:hover{
     color: white;
     font-weight: bold;
     margin-top: 40px;  
-}
-.button:hover{
-    opacity: 0.9  
-}
-.hero-section .p2{
-    text-align: center;
-    color: white;
+    margin-bottom: 65px;
+  }
+  
+  .hero-section .button:hover {
+    opacity: 0.9
+  }
+  
+  .hero-section .p2 {
     font-size: 16px;
-    margin-top: 65px;
-    line-break: anywhere;
-    position:relative;
-    margin-top: 65px;
-}
+    line-height: 1.5;
+  }
