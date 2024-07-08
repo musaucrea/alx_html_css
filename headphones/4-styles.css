@@ -6,9 +6,7 @@ footer {
     align-items: center;
   }
   
-  footer div {
-    /* border: 1px solid white; */
-  }
+
   
   .footer-links {
     display: flex;
@@ -17,11 +15,7 @@ footer {
   
   
   }
-  
-  .smile-school {
-    display: flex;
-    align-items: center;
-  }
+/*  */
   
   .footer-section img {
     width: 161px;
