@@ -10,7 +10,8 @@ margin: 0px;
     background: #fff;
     padding: 60px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+     */
     width: 300px;
     margin-top: 56px;
     justify-content: center;
@@ -18,9 +19,11 @@ margin: 0px;
 }
 h2{
     font-family:Source sans Pro ;
-    margin-bottom: 15px;
+    margin-bottom: 76px;
     font-size: 24px;
     color: #000000;
+    text-align: center;
+
 }
 label{
     display: block;
@@ -64,4 +67,5 @@ button {
 .contact-form{
     align-items: center;
   justify-content: center;
+ 
 }
