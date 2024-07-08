@@ -1,5 +1,5 @@
 body{
-    font-family: Source sans Pro;
+font-family: Source sans Pro;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -10,8 +10,6 @@ margin: 0px;
     background: #fff;
     padding: 60px;
     border-radius: 8px;
-  
-     */
     width: 300px;
     margin-top: 56px;
     justify-content: center;
@@ -28,19 +26,18 @@ h2{
 label{
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: #000000;
 }
 .content-form input,
 .content-form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
     border: 1px solid #ccc;
-    /* border-radius: 4px; */
-    /* border-bottom: #000000; */
     border-top: #000000;
     border-left: none;
     border-right: none;
+
 }
 .content-form input:focus,
 .content-form textarea:focus {
@@ -59,7 +56,8 @@ button {
     margin-top: 2px;
     border: none;
     align-items: center;
-   
+    justify-content: center;
+    margin-top: 56px;
 }
 .content-form button:hover {
     opacity: 0.6;
@@ -67,5 +65,7 @@ button {
 .contact-form{
     align-items: center;
   justify-content: center;
- 
-}
+ }
+ .input{
+margin-bottom: 11px;
+ }
