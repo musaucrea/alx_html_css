@@ -33,16 +33,20 @@ label{
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    /* border-radius: 4px; */
+    /* border-bottom: #000000; */
+    border-top: #000000;
+    border-left: none;
+    border-right: none;
 }
 .content-form input:focus,
 .content-form textarea:focus {
     border-color: #bdc7d2;
     outline: none;
-    box-shadow: 0 0 5px rgba(133, 143, 154, 0.5);
+    /* box-shadow: 0 0 5px rgba(133, 143, 154, 0.5); */
 }
 button {
-    border-radius: 5px;
+    border-radius: 22px;
     width: 162px;
     height: 44px;
     background-color: #FF6565;
@@ -51,10 +55,11 @@ button {
     font-weight: bold;
     margin-top: 2px;
     border: none;
+    align-items: center;
    
 }
 .content-form button:hover {
-    background-color: #313b46;
+    opacity: 0.6;
 }
 .contact-form{
     align-items: center;
